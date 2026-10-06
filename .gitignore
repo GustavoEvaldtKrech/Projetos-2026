@@ -1,0 +1,20 @@
+# Arquivos compilados do Java
+*.class
+
+# Pastas de saída de compilação
+bin/
+build/
+out/
+target/
+
+# Arquivos de IDEs (VS Code, Eclipse, IntelliJ)
+.vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
