@@ -1,47 +1,48 @@
-# 🧮 Calculadora em Java
-
+🧮 Calculadora em Java
 Aplicação de calculadora em consola desenvolvida em Java, capaz de realizar operações matemáticas básicas e avançadas com suporte a tratamento de erros.
 
----
-
-## 🚀 Funcionalidades
-
+🚀 Funcionalidades
 A aplicação permite ao utilizador escolher entre operações que necessitam de 1 ou 2 números:
 
-### 🔹 Operações com 2 Números:
-1. **Adição** (`+`)
-2. **Subtração** (`-`)
-3. **Multiplicação** (`*`)
-4. **Divisão** (`/`) — *com validação para evitar divisão por zero*
-5. **Potenciação** (`^`) — *com tratamento para limites de valor*
+🔹 Operações com 2 Números:
+Adição (+)
 
-### 🔹 Operações com 1 Número:
-6. **Raiz Quadrada** (`√`) — *com validação para números negativos*
+Subtração (-)
 
----
+Multiplicação (*)
 
-## 🛡️ Validações e Tratamento de Erros
+Divisão (/) — com validação para evitar divisão por zero
 
-- **Divisão por zero:** Impede a execução e avisa o utilizador.
-- **Raiz de número negativo:** Bloqueia cálculos inválidos no conjunto dos números reais.
-- **Entrada inválida:** Repete o menu caso uma opção inexistente seja selecionada.
-- **Repetição em loop:** Permite realizar múltiplos cálculos consecutivos até que o utilizador decida encerrar.
+Potenciação (^) — com tratamento para limites de valor
 
----
+🔹 Operações com 1 Número:
+Raiz Quadrada (√) — com validação para números negativos
 
-## 🛠️ Tecnologias Utilizadas
+🛡️ Validações e Tratamento de Erros
+Divisão por zero: Impede a execução e avisa o utilizador.
 
-- **Linguagem:** Java
-- **Entrada de Dados:** `java.util.Scanner`
-- **Operações Matemáticas:** `java.lang.Math` (`Math.pow`, `Math.sqrt`)
+Raiz de número negativo: Bloqueia cálculos inválidos no conjunto dos números reais.
 
----
+Entrada inválida: Repete o menu caso uma opção inexistente seja selecionada.
 
-## 💻 Como Executar o Projeto
+Repetição em loop: Permite realizar múltiplos cálculos consecutivos até que o utilizador decida encerrar.
 
-1. Certifique-se de que tem o JDK instalado no seu computador.
-2. Clone o repositório ou transfira o ficheiro `CalculadoraJava.java`.
-3. Abra o terminal na pasta onde o ficheiro está guardado.
-4. Compile o ficheiro:
-   ```bash
-   javac CalculadoraJava.java
+🛠️ Tecnologias Utilizadas
+Linguagem: Java
+
+Entrada de Dados: java.util.Scanner
+
+Operações Matemáticas: java.lang.Math (Math.pow, Math.sqrt)
+
+💻 Como Executar o Projeto
+Certifique-se de que tem o JDK instalado no seu computador.
+
+Clone o repositório ou transfira o ficheiro Calculadora.java.
+
+Abra o terminal na pasta onde o ficheiro está guardado.
+
+Compile o ficheiro:
+javac Calculadora.java
+
+Execute a aplicação:
+java Calculadora
