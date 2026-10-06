@@ -1,48 +1,49 @@
-🧮 Calculadora em Java
-Aplicação de calculadora em consola desenvolvida em Java, capaz de realizar operações matemáticas básicas e avançadas com suporte a tratamento de erros.
+# 🧮 Calculadora em Java
 
-🚀 Funcionalidades
-A aplicação permite ao utilizador escolher entre operações que necessitam de 1 ou 2 números:
+Aplicação de calculadora em console desenvolvida em Java, capaz de realizar operações matemáticas básicas e avançadas com suporte a tratamento de erros.
 
-🔹 Operações com 2 Números:
-Adição (+)
+---
 
-Subtração (-)
+## 🚀 Funcionalidades
 
-Multiplicação (*)
+A aplicação permite ao usuário escolher entre operações que necessitam de 1 ou 2 números:
 
-Divisão (/) — com validação para evitar divisão por zero
+### 🔹 Operações com 2 Números:
+1. **Adição** (`+`)
+2. **Subtração** (`-`)
+3. **Multiplicação** (`*`)
+4. **Divisão** (`/`) — *com validação para evitar divisão por zero*
+5. **Potenciação** (`^`) — *com tratamento para limites de valor*
 
-Potenciação (^) — com tratamento para limites de valor
+### 🔹 Operações com 1 Número:
+6. **Raiz Quadrada** (`√`) — *com validação para números negativos*
 
-🔹 Operações com 1 Número:
-Raiz Quadrada (√) — com validação para números negativos
+---
 
-🛡️ Validações e Tratamento de Erros
-Divisão por zero: Impede a execução e avisa o utilizador.
+## 🛡️ Validações e Tratamento de Erros
 
-Raiz de número negativo: Bloqueia cálculos inválidos no conjunto dos números reais.
+- **Divisão por zero:** Impede a execução e avisa o usuário.
+- **Raiz de número negativo:** Bloqueia cálculos inválidos no conjunto dos números reais.
+- **Entrada inválida:** Repete o menu caso uma opção inexistente seja selecionada.
+- **Repetição em loop:** Permite realizar múltiplos cálculos consecutivos até que o usuário decida encerrar.
 
-Entrada inválida: Repete o menu caso uma opção inexistente seja selecionada.
+---
 
-Repetição em loop: Permite realizar múltiplos cálculos consecutivos até que o utilizador decida encerrar.
+## 🛠️ Tecnologias Utilizadas
 
-🛠️ Tecnologias Utilizadas
-Linguagem: Java
+- **Linguagem:** Java
+- **Entrada de Dados:** `java.util.Scanner`
+- **Operações Matemáticas:** `java.lang.Math` (`Math.pow`, `Math.sqrt`)
 
-Entrada de Dados: java.util.Scanner
+---
 
-Operações Matemáticas: java.lang.Math (Math.pow, Math.sqrt)
+## 💻 Como Executar o Projeto
 
-💻 Como Executar o Projeto
-Certifique-se de que tem o JDK instalado no seu computador.
-
-Clone o repositório ou transfira o ficheiro Calculadora.java.
-
-Abra o terminal na pasta onde o ficheiro está guardado.
-
-Compile o ficheiro:
-javac Calculadora.java
-
-Execute a aplicação:
-java Calculadora
+1. Certifique-se de que tem o JDK instalado no seu computador.
+2. Clone o repositório ou baixe o arquivo `Calculadora.java`.
+3. Abra o terminal na pasta `src` onde o arquivo está salvo.
+4. Compile e execute a aplicação:
+   ```bash
+   cd Projetos-2026/calculadora-java/src
+   javac Calculadora.java
+   java Calculadora
